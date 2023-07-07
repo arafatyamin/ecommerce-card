@@ -1,0 +1,56 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* Main styles */
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+
+/* Shopping cart styles */
+#shopping-cart {
+  flex: 0 0 370px;
+  background-color: #f4f4f4;
+  
+}
+
+
+
+#cart-items li {
+  margin-bottom: 5px;
+}
+
+#cart-total {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#checkout-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 16px;
+}
+
+
